@@ -3,17 +3,90 @@
   <head>
       <meta charset="UTF-8">
     <title>Lõuna-Prantsusmaa</title>
-    <style type="text/css">
-      img.pilt { width: 40% }
-    </style>
+    <link href="styles/prantsusmaa.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/slaidid.js"></script>
   </head>
-  <body>
+  <body onload="initSlides()">
   <h1>Lõuna-Prantsusmaa</h1>
-<p>Väga ilus koht Euroopas on Lõuna-Prantsusmaa, täpsemalt Prantsusmaa kaguosa. Mäed, Verduni kanjon, Provence lavendliväljad, Mont-Dauphin, Alpi ümisejad, Ecrins looduspark, Sisteroni kindlus, Briancon, Embruni linnake, Savines-le-Lac’i järv, Ribiers-Val de Meouge looduslik spa.</p>
-<p>Tookord ei käinud me ei rahvast tulvil Prantsuse Rivieras, Cannes’is ega Nice’s, suurlinnades Marseille’s ega Montpellier’is.</p>
-<img src="img/Prantsusmaa/1.jpg" class="pilt"/>
-<img src="img/Prantsusmaa/2.jpg" class="pilt"/>
-<img src="img/Prantsusmaa/3.jpg" class="pilt"/>
-  </body>
-  
+  <div id="slaidid">
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Briancon.JPG" class="pilt"/>
+      <p>Briancon</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Embrun.JPG" class="pilt"/>
+    <p>Embrun</p>
+  </div>
+  <div class="slaid">
+    <img src="images/Prantsusmaa/MontDauphin.JPG" class="pilt"/>
+    <p>Mont Dauphini kindluslinn</p>
+  </div>
+  <div class="slaid">
+    <img src="images/Prantsusmaa/MontDauphin2.JPG" class="pilt"/>
+    <p>Mont Dauphini kindluslinn</p>
+  </div>
+  <div class="slaid">
+    <img src="images/Prantsusmaa/ümiseja.JPG" class="pilt"/>
+      <p>Väga julge alpi ümiseja</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/lavendel.JPG" class="pilt"/>
+      <p>Lavendleid kasvas igal pool</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/LesOrres.JPG" class="pilt"/>
+      <p>Vaade meie ööbimiskohast Les Orresis</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/AbbayedeBoscodon.JPG" class="pilt"/>
+      <p>Klooster Abbaye de Boscodon</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Provence.JPG" class="pilt"/>
+      <p>Lavendliväljad Provences</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Verdon2.JPG" class="pilt"/>
+      <p>Verdoni kanjon</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Verdon3.JPG" class="pilt"/>
+      <p>Verdoni kanjon</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Verdon4.JPG" class="pilt"/>
+      <p>Verdoni kanjon</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/RibiersValDeMeouge.JPG" class="pilt"/>
+      <p>Ribiers Val de Meouge</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Sisteron.JPG" class="pilt"/>
+      <p>Sisteron</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Sisteron2.JPG" class="pilt"/>
+      <p>Sisteron</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Ecrins.JPG" class="pilt"/>
+      <p>Ecrins'i looduspark</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Ecrins2.JPG" class="pilt"/>
+      <p>Ecrins'i looduspark</p>
+    </div>
+    <div class="slaid">
+      <img src="images/Prantsusmaa/Eze.JPG" class="pilt"/>
+      <p>Eze keskaegne linn</p>
+    </div>
+    <button onclick="prevSlide()">Eelmine slaid</button>
+    <button onclick="nextSlide()">Järgmine slaid</button>
+  </div>
+  <div id="sisu">
+    <p>Väga ilus koht Euroopas on Lõuna-Prantsusmaa, täpsemalt Prantsusmaa kaguosa. Meie sattusime sinna nädalaks suvel suure kuumalaine ajal. Tookord ei käinud me ei rahvast tulvil Prantsuse Rivieras, Cannes’is ega Nice’s, suurlinnades Marseille’s ega Montpellier’is. Küll aga olime mägedes, kus suvisel ajal võib suusakeskustes leida küllalt hea hinnaga ööbimiskohti. Meie baasiks oli küla nimega Les Orres. Sealt sõitsime ringi ja külastasime Verdoni kanjonit, Provence lavendlivälju, kloostrit Abbaye de Boscodon, Mont-Dauphini kindluslinna, selle lähedal looduspargis lõbustasid meid erakordselt julged alpi ümisejad. Sihtkohtadesse jäid veel Ecrins'i looduspark, kus imetlesime mägesid ja liustikke ja kuhu tulevikus sooviksin kindlasti minna pikemalt matkama, Sisteroni kindlus ja Brianconi imeilus keskaegne linnake. Ujumiskohtadeks olid Savines-le-Lac’i järv ja Ribiers-Val de Meouge looduslik spa. Tagasiteel külastasime ka rannikul olevat Eze keskaegset linna ning peatusime päevaks ka Itaalia rannikulinnas Camoglis.</p>
+    <p>Meie reisiseltskonnas oli 8 täiskasvanut ja 4 väikelast. Kui olla sihtkohtade ja aegade suhtes paindlik, siis julgen sellist reisi soovitada isegi väikeste lastega puhkajatele. Sinna ja tagasi lendasime Milano kaudu, kust rentisime autod ja sõitsime u 400 km, et jõuda Prantsusmaale.</p>
+  </div>
+</body>
 </html>
