@@ -1,17 +1,43 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
+<html lang="et">
+  <head>
+      <meta charset="UTF-8">
     <title>Horvaatia</title>
-</head>
+    <link href=".vscode/stiil.css" rel="stylesheet" type="text/css">
+    <script src="slaidid.js"></script>
+  </head>
+  <body onload="initSlides()">
+  <h1>Horvaatia</h1>
+  <div id="slaidid">
+    <div class="slaid">
+      <img src="pildid/horvaatia2.jpg" class="pilt" alt="pilt"/>
+    </div>
+    <div class="slaid">
+      <img src="pildid/horvaatia1.jpg" class="pilt" alt="pilt"/>
+  </div>
+  <div class="slaid">
+    <img src="pildid/horvaatia3.jpg" class="pilt" alt="pilt"/>
+  </div>
+  <div class="slaid">
+    <img src="pildid/horvaatia4.jpg" class="pilt" alt="pilt"/>
+    <p>Plitvice Lakes National Park</p>
+  </div>
+  <div class="slaid">
+    <img src="pildid/horvaatia5.jpg" class="pilt" alt="pilt"/>
+    <p></p>
+  </div>
 
-<body>
-    <h1>Horvaatia</h1>
-    <p>Horvaatia on ilus lõunamaa, kus päike särab ja vesi on helesinine.</p>
-
+    <button onclick="prevSlide()">Eelmine slaid</button>
+    <button onclick="nextSlide()">Järgmine slaid</button>
+  </div>
+  <div id="sisu">
+    <p>Horvaatia on ilus riik lõunamaal.</p>
+    <p>Seal on ilusad rannad, odav toit ning ilusad linnad.</p>
+    <p>Soovitan kindlasti minna nende loodusparki, seal on palju koske ja ilusaid järved.</p>
+  </div>
+<iframe id="video"
+src="https://www.youtube.com/embed/MDnzJmzHcMc">
+</iframe>
+<div id="button"><a href="http://kodu.ut.ee/~irina88/index.html">kodu</a></div>
 </body>
-<img src="horvaatia1.jpg" alt="pilt1" width="700" height="600">
-<img src="horvaatia2.jpg" alt="pilt2" width="500" height="600">
-
 </html>
