@@ -1,6 +1,6 @@
 html, body { margin: 0 }
 body {
-    background: url("images/turkey_pildid/cap4.jpg");
+    background: url("images/turkey_pildid/bgr.jpg");
     background-size: cover;
 }
 h1 {
@@ -22,8 +22,7 @@ h1 {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.9);
-    margin: 350px auto 0 1em;
-    right: 43%;
+    margin: 25em 1em 0 0.5em;
     padding: 0em 1em;
 }
 #slaidid {
@@ -34,7 +33,9 @@ h1 {
     padding: 0
 }
 .slaid { display: none; }
-.slaid > img { width: 100%; }
+.slaid img { 
+    width: 100%;
+    height: 300px;}
 .aktiivne_slaid { display: block; }
 #slaidid button, #slaidid p, #slaidid img {
     background-color: rgba(255, 255, 255, 0.5);
@@ -44,10 +45,22 @@ h1 {
 #slaidid p {
     padding: 0em 0.5em;
 }
+#pildid {
+    float: left;
+    margin: 14em;
+    border: 1px solid #ccc;
+    column-count: 2;
+    column-gap: 20px;
+    column-width: 300px;
+}
+.gallery img {
+        width: 100%;
+        height: 250px;
+    }
 #homebutton {
-    position: center;
-    margin: 50%;
-    width: 6em;
+    position: absolute;
+    margin: 86em 0 0 35em;
+    width: 7em;
     border: 1px solid rgb(0, 128, 128);
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 5px;
