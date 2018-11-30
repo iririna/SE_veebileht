@@ -1,6 +1,7 @@
+* { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 html, body { margin: 0 }
 body {
-    background: url("images/home/road.jpg");
+    background: url("images/home/road.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 h1, h2 {
@@ -10,23 +11,18 @@ h1, h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     text-align: center;
 }
-#btn1, #btn2, #btn3  {
-    margin-left: 45%;
-    width: 15em;
-    border: 1px solid rgb(0, 128, 128);
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 5px;
-}
 a {
     display: block;
-    margin: auto;
-    width: 100%;
+    margin: 1em auto;
+    width: 30%;
     line-height: 3em;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.5)
 }
 a:hover {
     color: rgb(73, 73, 73);
-    background: rgb(253, 253, 253);
+    background: rgba(255, 255, 255, 0.8);
 }
