@@ -1,6 +1,7 @@
 html, body { margin: 0 }
 body {
     background: url("images/turkey_pildid/cap4.jpg");
+    background-size: cover;
 }
 h1 {
     background-color: rgba(255, 255, 255, 0.5);
@@ -11,9 +12,17 @@ h1 {
 }
 #tekst {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.9);
     margin: 0 auto 0 1em;
+    right: 43%;
+    padding: 0em 1em;
+}
+#tekst2 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    margin: 350px auto 0 1em;
     right: 43%;
     padding: 0em 1em;
 }
@@ -36,8 +45,8 @@ h1 {
     padding: 0em 0.5em;
 }
 #homebutton {
-    margin-top: 450px;
-    margin-left: 600px;
+    position: center;
+    margin: 50%;
     width: 6em;
     border: 1px solid rgb(0, 128, 128);
     background-color: rgba(255, 255, 255, 0.5);

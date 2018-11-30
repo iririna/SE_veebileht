@@ -1,6 +1,7 @@
 html, body { margin: 0 }
 body {
     background: url("images/home/road.jpg");
+    background-size: cover;
 }
 h1, h2 {
     background-color: rgba(255, 255, 255, 0.5);
@@ -9,17 +10,18 @@ h1, h2 {
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
     text-align: center;
 }
-btn1, btn2, btn3  {
-width: 6em;
-border: 1px solid rgb(0, 128, 128);
-background-color: rgba(255, 255, 255, 0.5);
-border-radius: 5px;
+#btn1, #btn2, #btn3  {
+    margin-left: 45%;
+    width: 15em;
+    border: 1px solid rgb(0, 128, 128);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }
 a {
     display: block;
     margin: auto;
-    width: 30%;
-    line-height: 5em;
+    width: 100%;
+    line-height: 3em;
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
