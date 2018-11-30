@@ -1,0 +1,57 @@
+html, body { margin: 0 }
+body {
+    background: url("images/turkey_pildid/cap4.jpg");
+}
+h1 {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 1em 0;
+    padding: 0.5em 1em;
+    border-top: 1px solid rgba(255, 255, 255, 0.9);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+}
+#tekst {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+    margin: 0 auto 0 1em;
+    right: 43%;
+    padding: 0em 1em;
+}
+#slaidid {
+    float: right;
+    width: 40%;
+    padding: 1em;
+    margin: 0 1em 0 0.5em;
+    padding: 0
+}
+.slaid { display: none; }
+.slaid > img { width: 100%; }
+.aktiivne_slaid { display: block; }
+#slaidid button, #slaidid p, #slaidid img {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+#slaidid button:hover {background-color: #fff;}
+#slaidid p {
+    padding: 0em 0.5em;
+}
+#homebutton {
+    margin-top: 450px;
+    margin-left: 600px;
+    width: 6em;
+    border: 1px solid rgb(0, 128, 128);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: rgb(73, 73, 73);
+    background: rgb(253, 253, 253);
+}

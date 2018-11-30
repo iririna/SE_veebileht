@@ -3,24 +3,50 @@
     <head>
         <meta charset="UTF-8">
         <title>Türgi</title>
+        <link href="turkey.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="turkey.js"></script>
     </head>
-<body style="background-image:url('https://image.freepik.com/free-photo/vintage-wallpaper-background_53876-25248.jpg')">
-
-<h2 style="text-align:center;">Türgi</h2>  
-
-<h2>Minu lemmikkohaks on Türgi. Ma ise olen käinud Kapadookias, 
-    Istanbulis ja sellele lähedastel Printsi saartel.</h2>
-<p></p>
-<h4>Kapadookias ma olen käinud detsembris, siis ei ole reisihooaeg ja seal polnud palju inimesi,
-     mille üle mul oli hea meel, muidu ei saaks rahulikult kõike näha.
-     <p>Täpsemalt ma peatusin Urgupis, Alfina hotellis, mis on rajatud otse kaljusse.
-         See näeb väga äge välja ja öösel on eriti ilus. Kuna hotellis peatus vaid veel üks inimene, 
-         siis saingi endale upgrade'i ja mind mahutati ühte suurde koopa.</p>
-    Sealne loodus on ainulaadne, sellist ma pole kuskil rohkem näinud. Mis teeb seda ebatavaliseks
-    on kaljumassiivid, mis on erineva ja eripärase kujuga. Seda käisingi Göreme vabaõhu muuseumis vaatamas.</h4>    
-<img src="images/cap.jpg" style="width:500px;height:350px;">
-<p> </p>
-<a href="index.html"><button>Homepage</button></a></p>
-
+    <body onload="initSlides()">
+    <h1>Türgi</h1>  
+    <div id="slaidid">
+        <div class="slaid">
+            <img src="images/turkey_pildid/cap.jpg" class="pilt" alt="Kapadookia"/>
+            <p>Kapadookia</p>
+        </div>
+        <div class="slaid">
+            <img src="images/turkey_pildid/cap2.jpg" class="pilt" alt="Kapadookia"/>
+            <p>Kapadookia</p>
+        </div>
+        <div class="slaid">
+            <img src="images/turkey_pildid/cap3.jpg" class="pilt" alt="Kalju sees"/>
+            <p>Kalju sees</p>
+        </div>
+        <div class="slaid">
+            <img src="images/turkey_pildid/hotel.jpg" class="pilt" alt="Hotell Alfina"/>
+            <p>Hotell Alfina</p>
+        </div>
+        <div class="slaid">
+            <img src="images/turkey_pildid/room.jpg" class="pilt" alt="Hotelli tuba"/>
+            <p>Tuba, kus ma peatusin</p>
+        </div>
+        <button onclick="prevSlide()">Eelmine slaid</button>
+        <button onclick="nextSlide()">Järgmine slaid</button>
+    </div>
+    <div id="tekst">
+        <p>Minu lemmikkohaks on Türgi. Ma ise olen käinud Kapadookias, 
+            Istanbulis ja sellele lähedastel Printsi saartel.</p>
+        <p>Kapadookias ma käisin detsembris, siis ei olnud reisihooaeg ja seal polnud palju inimesi,
+            mille üle mul oli hea meel, muidu ei saaks rahulikult kõike näha.</p>
+        <p>Täpsemalt ma peatusin Urgupis, Alfina hotellis, mis on rajatud otse kaljusse.
+            See näeb väga äge välja ja öösel on eriti ilus. Kuna hotellis peatus vaid veel üks inimene, 
+            siis saingi endale upgrade'i ja mind mahutati ühte suurde koopa.</p>
+        <p>Sealne loodus on ainulaadne, sellist ma pole kuskil rohkem näinud. Mis teeb seda ebatavaliseks
+            on kaljumassiivid, mis on erineva ja eripärase kujuga. Seda käisingi Göreme vabaõhu muuseumis vaatamas.</p>
+        <p>Üksainus asi, mis ma kahetsen, et jäi tegemata, on õhupalliga sõit. Tollel ajal pidasin seda liiga kalliks
+            lõbuks. Nüüd aga sellele mõeldes, oleks kindlasti pidanud seda võimalust kasutama.
+        </p>
+    </div>
+    <p></p>
+    <div id="homebutton"><a href="index.html">Kodu</a></div>
 </body>
 </html>
